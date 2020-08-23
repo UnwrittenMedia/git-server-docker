@@ -1,6 +1,6 @@
-FROM alpine:3.4
+FROM alpine:3.12
 
-MAINTAINER Carlos Bernárdez "carlos@z4studios.com"
+MAINTAINER Marshall Anschutz "team@unwritten.media"
 
 # "--no-cache" is new in Alpine 3.3 and it avoid using
 # "--update + rm -rf /var/cache/apk/*" (to remove cache)
